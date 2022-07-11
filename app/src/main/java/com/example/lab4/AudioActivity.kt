@@ -53,10 +53,6 @@ class AudioActivity : AppCompatActivity() {
             mediaPlayer.seekTo(mediaPlayer.currentPosition - 3000)
         }
 
-        binding.buttonNextAudio.setOnClickListener {
-
-        }
-
         binding.seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener{
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
                 if (fromUser) mediaPlayer.seekTo(progress)
