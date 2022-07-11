@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lab4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="audio_fragment">Audio</string>
+    <string name="video_fragment">Video</string>
+    <string name="song_name">Song Name</string>
+    <string name="video_name">Video Name</string>
+</resources>
